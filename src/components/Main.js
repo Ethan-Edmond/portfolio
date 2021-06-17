@@ -51,7 +51,7 @@ function Main() {
               </p>
               {/* {Add a resume to download here} */}
             </div>
-            <img src='./assets/head3-comp.png' alt='A picture of my beautiful face'/>
+            <img src='./assets/head3-comp.png' alt='My beautiful face'/>
           </div>
         </div>
       </section>

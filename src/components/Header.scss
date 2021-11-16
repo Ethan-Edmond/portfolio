@@ -1,10 +1,9 @@
 @import "../style-utils/variables";
+
 .hero-area {
-    text-align: center;
     .content-wrapper {
 	padding-bottom: 30px;
 	h2 {
-	    color: blue;
 	    margin-bottom: 0;
 	    font-weight: bold;
 	}
@@ -14,11 +13,6 @@
 @media (min-width: $tablet-width) {
     #main-hero {
         height: 512px;
-    }
-
-    .hero-area .content-wrapper {
-        width: 80%;
-        padding-left: 4%;
     }
 }
 
@@ -38,6 +32,5 @@
     }
 }
 
-.bread-tagline {
-    background-color: red;
-}
+// .bread-tagline {
+// }

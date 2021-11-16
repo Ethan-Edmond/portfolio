@@ -94,7 +94,7 @@ textarea {
 html {
     font-size: 16px;
     font-family: "IBM Plex Serif";
-    background: #101519;
+    background: $primary-color;
     color: white;
 }
 
@@ -105,13 +105,13 @@ a {
 }
 
 a:hover {
-    color: salmon;
+    color: $accent-color;
     font-weight: bold;
 }
 
 em {
     font-style: normal;
-    color: salmon;
+    color: $accent-color;
 }
 
 .content-wrapper {
@@ -156,7 +156,7 @@ h3 {
 
 #portfolio {
     margin: 0;
-    border: 1px solid #101519;
+    border: 1px solid $primary-color;
 }
 
 #portfolio .content-wrapper {
@@ -175,7 +175,7 @@ h3 {
 }
 
 #portfolio img:hover {
-    border: 2px solid salmon;
+    border: 2px solid $accent-color;
     border-width: 2px 2px 1px;
 }
 
@@ -184,7 +184,7 @@ h3 {
 }
 
 .project-divider {
-    border: 1px solid #21262a;
+    border: 1px solid $secondary-color;
     width: 88%;
     margin-left: 6%;
     box-sizing: border-box;
@@ -195,7 +195,7 @@ h3 {
     background-size: cover;
     background-position: left bottom;
     padding-bottom: 30px;
-    border: 1px solid #101519;
+    border: 1px solid $primary-color;
     border-width: 1px 1px 0;
 }
 
@@ -213,12 +213,12 @@ h3 {
 
 #about img {
     width: 100%;
-    border: 2px solid #21262a;
+    border: 2px solid $secondary-color;
     box-sizing: border-box;
 }
 
 footer {
-    background: #030506;
+    background: $tertiary-color;
 }
 
 footer .content-wrapper {
@@ -248,7 +248,7 @@ footer .contact-text {
 }
 
 footer .divider {
-    border: 1px solid #21262a;
+    border: 1px solid $secondary-color;
     width: 80%;
 }
 

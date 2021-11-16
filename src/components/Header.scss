@@ -1,7 +1,12 @@
 @import "../style-utils/variables";
 
 .hero-area {
+    background-image: url("../assets/glitch-art-background-1-low-contrast2.png");
+    background-size: cover;
+    background-position: right top;
+    height: 100vh;
     .content-wrapper {
+	box-sizing: border-box;
 	padding-bottom: 30px;
 	h2 {
 	    margin-bottom: 0;
@@ -11,9 +16,6 @@
 }
 
 @media (min-width: $tablet-width) {
-    #main-hero {
-        height: 512px;
-    }
 }
 
 @media (min-width: $desktop-width) {

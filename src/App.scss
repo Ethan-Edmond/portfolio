@@ -207,59 +207,6 @@ h3 {
     box-sizing: border-box;
 }
 
-footer {
-    background: $tertiary-color;
-}
-
-footer .content-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    text-align: center;
-}
-
-footer h2 {
-    margin: 0;
-}
-
-footer .fontawesome-icon {
-    display: inline;
-    font-size: 2em;
-    margin: 0;
-}
-
-footer #contact {
-    width: 50%;
-}
-
-footer .contact-text {
-    display: none;
-}
-
-footer .divider {
-    border: 1px solid $secondary-color;
-    width: 80%;
-}
-
-footer #social, footer #contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row wrap;
-    text-align: center;
-    margin: 20px 0;
-}
-
-footer #social {
-    width: 75%;
-}
-
-footer #copyright {
-    text-align: center;
-    font-size: 0.8em;
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -411,48 +358,6 @@ footer #copyright {
         width: 50%;
         float: right;
     }
-    footer .content-wrapper {
-        padding: 24px 4%;
-        text-align: left;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-flow: row wrap;
-    }
-    footer #contact {
-        width: 100%;
-        justify-content: space-evenly;
-    }
-    footer h2 {
-        width: 100%;
-    }
-    footer .divider {
-        display: none;
-    }
-    footer .contact-text {
-        display: inline;
-        padding: 20px;
-        font-size: 1.75em;
-    }
-    footer .fontawesome-icon {
-        font-size: 3em;
-    }
-    footer #contact .fontawesome-icon {
-        position: relative;
-        top: 8px;
-    }
-    footer .contact-item {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    footer #social {
-        justify-content: space-between;
-        width: 100%;
-        padding: 0 12%;
-    }
-    footer #copyright {
-        font-size: 1.25em;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -509,31 +414,6 @@ footer #copyright {
     }
     #about img {
         width: 40%;
-    }
-    footer .content-wrapper {
-        flex-flow: row wrap;
-        padding: 28px 2%;
-    }
-    footer .contact-text {
-        font-size: 1.25em;
-    }
-    footer #contact {
-        width: 50%;
-        box-sizing: border-box;
-        flex-flow: row wrap;
-        align-items: flex-start;
-        padding-left: 0%;
-        margin: 18px 0;
-    }
-    footer #social {
-        width: 49%;
-        box-sizing: border-box;
-        align-items: center;
-        margin: 34px 0;
-        padding: 0 5% 0 0;
-    }
-    footer #copyright {
-        font-size: 0.75em;
     }
 }
 

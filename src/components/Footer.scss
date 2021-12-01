@@ -1,0 +1,104 @@
+@import '../style-utils/variables';
+
+footer {
+    background: $tertiary-color;
+
+    .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+	text-align: center;
+    }
+    
+    h2 {
+	margin: 0;
+    }
+    
+    .fontawesome-icon {
+	display: inline;
+	font-size: 2em;
+	margin: 0;
+    }
+    
+    #contact {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row wrap;
+	text-align: center;
+	margin: 20px 0;
+    }
+    
+    .contact-text {
+	display: none;
+    }
+    
+    #copyright {
+	text-align: center;
+	font-size: 0.8em;
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+	.content-wrapper {
+            padding: 24px 4%;
+            text-align: left;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-flow: row wrap;
+	}
+	#contact {
+            width: 100%;
+            justify-content: space-evenly;
+	}
+	h2 {
+            width: 100%;
+	}
+	.contact-text {
+            display: inline;
+            padding: 20px;
+            font-size: 1.75em;
+	}
+	.fontawesome-icon {
+            font-size: 3em;
+	}
+	#contact .fontawesome-icon {
+            position: relative;
+            top: 8px;
+	}
+	.contact-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+	}
+	#copyright {
+            font-size: 1.25em;
+	}
+    }
+}
+
+@media (min-width: 1200px) {
+    footer {
+	.content-wrapper {
+            flex-flow: row wrap;
+            padding: 28px 2%;
+	}
+	.contact-text {
+            font-ize: 1.25em;
+	}
+	#contact {
+            width: 50%;
+            box-sizing: border-box;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            padding-left: 0%;
+            margin: 18px 0;
+	}
+	#copyright {
+            font-size: 0.75em;
+	}
+    }
+}

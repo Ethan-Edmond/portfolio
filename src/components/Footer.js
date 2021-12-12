@@ -5,14 +5,10 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import './Footer.scss';
 
-function FAIcon(props) {
-  return <FontAwesomeIcon {...props} className='fontawesome-icon'/>
-}
-
 function ContactLink(props) {
   return (
     <a href={props.href}>
-      <FAIcon icon={props.icon}/>
+      <FontAwesomeIcon icon={props.icon} className='fontawesome-icon'/>
       <span className='contact-text'>
 	{props.text}
       </span>
@@ -43,19 +39,17 @@ function Footer() {
     <footer>
       <div className='content-wrapper'>
 	<h2>My contact info</h2>
-	<div id='contact'>
-	  <ul>
-	    { linkProps.map(propObj => {
-	      return (
-		<li>
-		  <ContactLink {...propObj}/>
-		</li>
-	      );
-	    })}
-	  </ul>
-	</div>
+	<ul id='contact'>
+	  { linkProps.map(propObj => {
+	    return (
+	      <li>
+		<ContactLink {...propObj}/>
+	      </li>
+	    );
+	  })}
+	</ul>
       </div>
-      <div id='copyright'>Copyright 2021 | Ethan Edmond 2021</div>
+      <div id='copyright'> Ethan Edmond 2021</div>
     </footer>
   );
 }

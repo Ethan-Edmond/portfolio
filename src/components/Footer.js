@@ -49,7 +49,6 @@ function Footer() {
 	  })}
 	</ul>
       </div>
-      <div id='copyright'> Ethan Edmond 2021</div>
     </footer>
   );
 }

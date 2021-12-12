@@ -27,6 +27,12 @@ footer {
 	    
 	    li {
 		list-style: none;
+
+		a {
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		}
 		
 		.fontawesome-icon {
 		    font-size: 2rem;
@@ -35,6 +41,7 @@ footer {
 		    display: none;
 		    @media (min-width: 768px) {
 			display: inline;
+			padding-left: 0.5rem;
 		    }
 		}
 	    }
